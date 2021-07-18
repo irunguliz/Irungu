@@ -12,3 +12,7 @@ input[type="number"]{
     height: 24px;
     font-size: 20px;
 }
+input[type="radio"]{
+    width: 100px;
+    height: 17px;
+    font-size: 20px;
