@@ -1,18 +1,16 @@
-.date{
-    margin-left: 30%;
-    margin-top: 10%;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-input[type="text"]{
-    width: 300px;
-    height: 24px;
-    font-size: 20px;
+body{
+    background: linear-gradient(to left, rgba(241, 66, 28.5),rgba(247, 255, 0.5)) ;
+    margin-top: 30px;
 }
-input[type="number"]{
-    width: 300px;
-    height: 24px;
-    font-size: 20px;
+.form{
+    background: #2eecf3 ;
+    width: 500px;
+    padding: 2rem;
+    margin: auto;
+    border-radius: 10px;
 }
-input[type="radio"]{
-    width: 100px;
-    height: 17px;
-    font-size: 20px;
