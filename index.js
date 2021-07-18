@@ -14,7 +14,7 @@ function myValidation(){
 }
  
 function myGender(){
-    var genderCheck= document.getElementByName("gender");
+    var genderCheck= document.getElementsByName("gender");
     var male= document.getElementById("male");
     var female= document.getElementById("female");
 
@@ -34,7 +34,7 @@ function generateName(){
     var akanFemale = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
     var daysAkan = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
-    if(myGender()=="male"){
+    if(myGender()==="male"){
         alert("Your Akan name is "+akanMale[myValidation]);
     }
 }

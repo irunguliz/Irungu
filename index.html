@@ -13,7 +13,7 @@
 
 <body>
     <!-- <div class="container"> -->
-    <!-- <div class="row-m"> --> -->
+    <!-- <div class="row-m"> --> 
     <!-- <div class="col-md-6"> -->
     <!-- <form onclick="return false">
                      <input type="text" class="form-control" max="31" min="1" id="date" placeholder="Input date of birth"><br><br>
@@ -27,7 +27,11 @@
           </div>
       </div>
     </div>
-    <form action="">
+   
+    <!-- <div> -->
+        <p class="display"></p>
+        <p class="show"></p>
+        <form onsubmit="return false" name="form"> 
         <legend>Generating Akan Name </legend>
         <br><label> ENTER DATE : </label>
         <input id="date" name="date" type="text"> <br>
@@ -38,7 +42,8 @@
         <br><label>Gender</label>
         <input type="radio" id="gender" name="gender" value="male" /> MALE
         <input type="radio" id="gender" name="gender" value="female" /> FEMALE<br />
-        <button type="submit" onclick="generateName()"> SUBMIT HERE </button>
+        <button type="submit" onclick="generateName()"> type="submit"> SUBMIT HERE </button>
+        </div>
     </form>
     <script src="index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -46,4 +51,4 @@
         crossorigin="anonymous"></script>
 </body>
 
-</html>
+</html> 
