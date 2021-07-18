@@ -35,6 +35,13 @@ function generateName(){
     var daysAkan = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
     if(myGender()==="male"){
-        alert("Your Akan name is "+akanMale[myValidation]);
+        document.querySelector(".showcase").innerHTML="Akan name is "+akanMale[myValidation()];
+        document.querySelector(".show").innerHTML="Born on "+weekDays[myValidation()];
+    }else if(myGender()==="female"){
+        document.querySelector(".showcase").innerHTML="Akan name is "+akanFemale[myValidation()];
+        document.querySelector(".show").innerHTML="Born on "+weekDays[myValidation()];
+    }else{
+        document.querySelector(".showcase").innerHTML="Akan name is "+akanNameFemale[myValidation()];
+        document.querySelector(".show").innerHTML="Born on "+daysAkan[myValidation()];
     }
 }
