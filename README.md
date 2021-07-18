@@ -18,7 +18,7 @@ It runs properly as long as you have strong network connection.
 <img src= "photos/generator.png">
 
 # Behaviour Driven Development
-
+| Behaviour | Input
 
 # License
 MIT License
