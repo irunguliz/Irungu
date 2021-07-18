@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+    background-image: url("photos/women.jpg");
     background: linear-gradient(to left, rgba(241, 66, 28.5),rgba(247, 255, 0.5)) ;
     margin-top: 30px;
 }
