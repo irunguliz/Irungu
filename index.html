@@ -12,37 +12,22 @@
 </head>
 
 <body>
-    <!-- <div class="container"> -->
-    <!-- <div class="row-m"> --> 
-    <!-- <div class="col-md-6"> -->
-    <!-- <form onclick="return false">
-                     <input type="text" class="form-control" max="31" min="1" id="date" placeholder="Input date of birth"><br><br>
-                     <input type="text" class="form-control" max="12" min="1" id="month" placeholder="Input month of birth"><br><br>
-                     <input type="text" class="form-control" min="1" id="year" placeholder="Input year of birth"><br><br>
-                     <input type="radio">male2
-                     <input type="radio" id="gender" name="gender" value="male" > MALE
-                     <input type="radio" id="gender" name="gender" value="female" > FEMALE<br>
-                     <button type="submit" class="btn btn-primary" onclick="generateName()">Submit</button>
-              </form>
-          </div>
-      </div>
-    </div>
    
     <!-- <div> -->
         <p class="showcase"></p>
         <p class="show"></p>
-        <form name="Form" class="aka" onsubmit="validate();">
+        <form name="Form">
         <legend>Generating Akan Name </legend>
         <br><label> Input date : </label>
-        <input id="date" name="date" type="text"> <br>
+        <input id="date" name="date" type="text"  max="31" min="1" placeholder="date of birth"><br>
         <br><label> Input month : </label>
-        <input id="month" name="month" type="text"> <br>
+        <input id="month" name="month" type="text" max="12" min="1" placeholder="Input month"> <br>
         <br><label> Input year : </label>
-        <input id="year" name="year" type="text"> <br>
+        <input id="year" name="year" type="text" min="1" placeholder="Input year"> <br>
         <br><label>Gender</label>
         <input type="radio" id="gender" name="gender" value="male" /> MALE
         <input type="radio" id="gender" name="gender" value="female" /> FEMALE<br />
-        <button type="submit" onclick="generateName()"> Submit </button>
+        <button type="submit" onclick="generateName()">Submit</button>
         </div>
     </form>
     <script src="index.js"></script>
