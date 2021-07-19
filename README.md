@@ -1,5 +1,8 @@
 # Introduction to the name generator
 ## This name generator was created and designed by Liz Irungu on 19/07/2021.
+# Project Description
+This is a project that performs a task of taking an input which is your date of birth and finding out the exact day you were born and using this day and your gender it generates an Akan name.
+
 # Technology used
 * Html
 * Css
