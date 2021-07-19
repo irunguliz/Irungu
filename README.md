@@ -12,7 +12,7 @@
 # Bugs
 It runs properly as long as you have strong network connection.
 # Live link to my name generator
-<a href="https://github.com/irunguliz/Irungu.git"> my name generator</a>
+<a href="https://irunguliz.github.io/Irungu/"> my name generator</a>
 
 # Generator image
 <img src= "photos/generator.png">
