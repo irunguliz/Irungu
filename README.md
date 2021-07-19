@@ -29,7 +29,8 @@ It runs properly as long as you have strong network connection.
 |Gives a male Akan name | Monday | Kwadwo|
 |Gives a female Akan name| Tuesday| Abenaa|
 
-
+# Contact information
+To reach me you can find me here 0727566767
 # License
 MIT License
 
