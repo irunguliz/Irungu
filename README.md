@@ -3,6 +3,8 @@
 # Project Description
 This is a project that performs a task of taking an input which is your date of birth and finding out the exact day you were born and using this day and your gender it generates an Akan name.
 
+# Setup Instructions
+To use this name generator all you need is to input your date of birth and your gender.
 # Technology used
 * Html
 * Css
